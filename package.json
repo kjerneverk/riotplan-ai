@@ -44,8 +44,8 @@
     "@kjerneverk/riotplan-format": "^1.0.2"
   },
   "peerDependencies": {
-    "@kjerneverk/execution-anthropic": "^1.0.13",
-    "@kjerneverk/execution-openai": "^1.0.13",
+    "@kjerneverk/execution-anthropic": "^1.0.14",
+    "@kjerneverk/execution-openai": "^1.0.14",
     "@kjerneverk/execution-sampling": "^1.0.5",
     "@kjerneverk/riotplan-catalyst": "^1.0.7"
   },
