@@ -1,6 +1,6 @@
 {
   "name": "@kjerneverk/riotplan-ai",
-  "version": "1.0.2-dev.0",
+  "version": "1.0.2",
   "description": "AI plan generation engine for RiotPlan",
   "type": "module",
   "main": "./dist/index.js",
