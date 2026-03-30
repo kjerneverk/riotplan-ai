@@ -9,7 +9,7 @@ import type { Provider } from './types.js';
 
 /**
  * Minimal session context shape needed by the provider loader.
- * The full SessionContext type lives in @kjerneverk/riotplan-mcp-http.
+ * The full SessionContext type lives in @planvokter/riotplan-mcp-http.
  */
 interface SessionContext {
     sessionId: string;
@@ -74,7 +74,7 @@ export async function loadProvider(config: ProviderConfig): Promise<Provider> {
         '3. Create plan steps manually:',
         '   - Use riotplan_step with action=add to add steps without AI',
         '',
-        'For more information: https://github.com/kjerneverk/riotplan#ai-providers',
+        'For more information: https://github.com/planvokter/riotplan#ai-providers',
     ].join('\n');
     
     throw new Error(errorMessage);
