@@ -1,6 +1,6 @@
 {
   "name": "@planvokter/riotplan-ai",
-  "version": "1.0.3-dev.0",
+  "version": "1.0.3",
   "description": "AI plan generation engine for RiotPlan",
   "type": "module",
   "main": "./dist/index.js",
