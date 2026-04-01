@@ -7,7 +7,7 @@
 
 import { join } from 'node:path';
 import { readFile, readdir, stat } from 'node:fs/promises';
-import { createSqliteProvider, type PlanFileType } from '@kjerneverk/riotplan-format';
+import { createSqliteProvider, type PlanFileType } from '@planvokter/riotplan-format';
 
 export interface ArtifactBundle {
     ideaContent: string | null;
@@ -310,7 +310,7 @@ interface AttributedContentItem {
 /**
  * Convert merged catalyst to the format needed by GenerationContext
  * 
- * Takes a MergedCatalyst from @kjerneverk/riotplan-catalyst and converts it
+ * Takes a MergedCatalyst from @planvokter/riotplan-catalyst and converts it
  * to the catalystContent format used by the generator.
  * 
  * The mergedCatalyst parameter uses a simplified type to avoid tight coupling

@@ -1,6 +1,6 @@
 {
-  "name": "@kjerneverk/riotplan-ai",
-  "version": "1.0.2",
+  "name": "@planvokter/riotplan-ai",
+  "version": "1.0.3",
   "description": "AI plan generation engine for RiotPlan",
   "type": "module",
   "main": "./dist/index.js",
@@ -36,18 +36,18 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kjerneverk/riotplan-ai"
+    "url": "https://github.com/planvokter/riotplan-ai"
   },
   "dependencies": {
     "@kjerneverk/agentic": "^1.0.9",
     "@kjerneverk/execution": "^1.0.8",
-    "@kjerneverk/riotplan-format": "^1.0.2"
+    "@planvokter/riotplan-format": "^1.0.14"
   },
   "peerDependencies": {
     "@kjerneverk/execution-anthropic": "^1.0.14",
     "@kjerneverk/execution-openai": "^1.0.14",
     "@kjerneverk/execution-sampling": "^1.0.5",
-    "@kjerneverk/riotplan-catalyst": "^1.0.7"
+    "@planvokter/riotplan-catalyst": "^1.0.17-0"
   },
   "peerDependenciesMeta": {
     "@kjerneverk/execution-anthropic": {
@@ -59,7 +59,7 @@
     "@kjerneverk/execution-sampling": {
       "optional": true
     },
-    "@kjerneverk/riotplan-catalyst": {
+    "@planvokter/riotplan-catalyst": {
       "optional": true
     }
   },
@@ -79,6 +79,7 @@
     "vitest": "^4.0.17"
   },
   "publishConfig": {
+    "access": "public",
     "tag": "dev"
   }
 }
